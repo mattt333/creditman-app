@@ -8,6 +8,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CompaniesComponent } from './pages/companies/companies.component';
 import { NewcoComponent } from './pages/newco/newco.component';
 import { FollowComponent } from './pages/follow/follow.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FollowComponent } from './pages/follow/follow.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

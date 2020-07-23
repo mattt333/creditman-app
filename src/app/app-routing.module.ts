@@ -7,6 +7,7 @@ import { FollowComponent } from './pages/follow/follow.component';
 
 
 const routes: Routes = [
+  {path : '', component : HomepageComponent},
   {path : 'home', component : HomepageComponent},
   {path : 'companies', component : CompaniesComponent},
   {path : 'newco', component : NewcoComponent},
